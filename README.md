@@ -13,11 +13,17 @@
 
 ---
 
+## Project showcase
+
+<p align="center">
+  <img src="esp32-oled-clock.jpg" alt="ESP32 OLED clock showing a cyan pixel-art butterfly and the date, photographed on a green cutting mat" width="720">
+</p>
+
+<p align="center"><sub>ESP32 + 128×64 OLED · Cyan butterfly animation · IST date display</sub></p>
+
 ## Overview
 
 This project turns an ESP32 and a 128×64 monochrome OLED into a compact digital clock. A cyan pixel-art butterfly animation plays on the display, with the current weekday and date rendered over it. The ESP32 connects to Wi-Fi and synchronizes its clock using an NTP server.
-
-> **Project status:** Firmware and animation asset are included. Hardware photos will be added to the gallery when the original project photo is available as an upload.
 
 ## At a glance
 
@@ -111,6 +117,8 @@ flowchart TD
     J --> F
 ```
 
+More diagrams are available in [the flowcharts guide](docs/flowcharts.md).
+
 ## Repository structure
 
 ```text
@@ -120,6 +128,7 @@ esp32-oled-clock/
 │   └── oled_animation.h
 ├── docs/
 │   └── flowcharts.md
+├── esp32-oled-clock.jpg
 └── README.md
 ```
 
