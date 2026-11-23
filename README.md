@@ -141,7 +141,9 @@ esp32-oled-clock/
 
 ## Credits
 
-Built and programmed as a personal ESP32 electronics project.
+**Created by Kushagra Gupta.**
+
+Designed, programmed, and documented as a personal ESP32 electronics project.
 
 ---
 
